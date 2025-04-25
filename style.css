@@ -7,11 +7,10 @@ h1, p {
     font-weight: bold;
 }
 
-#Profile {
-    height: 450px;
+#profile {
+    height: 250px;
     width: auto;
     border-radius: 16px;
-
 }
 
 body {
@@ -39,11 +38,10 @@ footer {
     color: #F50;
 }
 
-#Landing {
+#landing {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 100vh;
-   
+    height: 80vh;
 }
