@@ -1,0 +1,55 @@
+body{
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 200 200'%3E%3Cpolygon fill='%23DCEFFA' points='100 0 0 100 100 100 100 200 200 100 200 0'/%3E%3C/svg%3E");
+    background-size: cover;
+    background-attachment: fixed;   
+}
+
+
+* {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    color: #333;
+}
+
+#profile {
+    height: 400px; 
+    width: auto;
+    border-radius: 50px;
+}
+
+#landing {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+    height: 80vh; 
+    width: 100vw;
+}
+
+h1 {
+    font-weight: 800;
+    font-family: "Montserrat", sans-serif;
+}
+
+.fa-globe, .fa-facebook, .fa-x-twitter, .fa-instagram, 
+    .fa-tiktok, .fa-instagram, .fa-youtube {
+    color: white;
+    font-size: 25px;
+    margin: 0 10px 0 10px;
+
+}
+
+.fa-globe:hover, .fa-facebook:hover, .fa-x-twitter:hover, 
+    .fa-instagram:hover, .fa-tiktok:hover, .fa-instagram:hover, 
+    .fa-youtube:hover {
+    color: gray;
+}
+
+footer {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
