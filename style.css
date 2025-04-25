@@ -27,10 +27,10 @@ body{
     width: 100vw;
 }
 
-h1 {
-    font-weight: 800;
+h1, p {
     font-family: "Montserrat", sans-serif;
 }
+
 
 .fa-globe, .fa-facebook, .fa-x-twitter, .fa-instagram, 
     .fa-tiktok, .fa-instagram, .fa-youtube {
